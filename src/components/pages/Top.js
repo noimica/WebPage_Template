@@ -1,7 +1,10 @@
-import React from 'react';
+import useTitle from './useTitle';
 
-const Top = () =>(
-  <h1>トップページです</h1>
-);
+const Top = () =>{
+  useTitle('Top');
+  return (
+    <h1>Topページ</h1>
+  );
+};
 
 export default Top;

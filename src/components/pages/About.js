@@ -1,7 +1,10 @@
-import React from 'react';
+import useTitle from './useTitle';
 
-const About = () =>(
-  <h1>会社概要ページです</h1>
-);
+const About = () => {
+  useTitle('About');
+  return (
+    <h1>Aboutページ</h1>
+  );
+};
 
 export default About;
