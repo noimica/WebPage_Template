@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+
 function isFunction(obj, notArrow) {
     return toString.call(obj) === '[object Function]' && (!notArrow || 'prototype' in obj);
 }
